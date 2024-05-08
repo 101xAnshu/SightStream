@@ -9,6 +9,7 @@ const Loader = () => {
         alt="Loading"
         width={50}
         height={50}
+        style={{ transform: "scaleX(-1)" }}
       />
     </div>
   );

@@ -3,13 +3,16 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sight Stream",
   description:
     "Streamline meetings effortlessly with Sight-Stream, the ultimate productivity companion.",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
 };
 
 export default function RootLayout({

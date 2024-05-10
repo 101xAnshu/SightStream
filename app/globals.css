@@ -14,6 +14,10 @@
   position: relative;
 }
 
+.close-cross {
+  filter: invert(1);
+}
+
 .str-video__speaker-layout__wrapper {
   max-height: 700px;
 }
